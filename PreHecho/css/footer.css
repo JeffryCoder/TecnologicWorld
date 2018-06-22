@@ -1,0 +1,37 @@
+
+
+/*FF6300 B24500 39F9FF 86FBFF 1CAEB2*/
+
+
+footer .Piedepágina {
+	background: #FF6300;
+
+
+	border-top: #B24500 10px solid;}
+
+
+
+footer .cosas .Pie-de-página h2 {
+	text-align: center;
+	color:#F65A12;
+
+	font-family: Showcard Gothic;}
+
+
+
+
+footer .cosas .apartados-de-pie-de-página {
+	background: #FF6300;
+	padding:0px;
+
+	border-bottom: #B24500 10px solid;
+	height: 230px;
+	text-align: center;
+}
+
+footer .cosas .apartados-de-pie-de-página  ul a li {
+	list-style: none;
+	color:#000;
+	font-size: 16px;
+	text-align: center;
+}
