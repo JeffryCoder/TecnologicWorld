@@ -1,0 +1,168 @@
+/*#0F2C40 #3CB2FF #36A0E5 #2D85BF #1CAEB2*/
+
+
+.PerfilUsuario {
+  background:#36A0E5;
+  border-top:#0F2C40 solid 10px;
+  border-bottom:#0F2C40 solid 10px;
+  width: 90%;
+  padding: 5%;
+  height: 300px;
+}
+.PerfilUsuario .FotoPerfilUsuario {
+  width: 20%;
+  float: left;
+}
+.PerfilUsuario .FotoPerfilUsuario img {
+  width: 100%;
+  border-radius: 50%;
+
+}
+.PerfilUsuario .Nombre {
+  width: 20%;
+  float: left;
+  padding: 2.5%;
+  font-size: 30px;
+
+}
+.PerfilUsuario .Estado {
+  float: left;
+  padding: 2.5%;
+  font-size: 20px;
+  width: 40%;
+  text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*#0F2C40 #3CB2FF #36A0E5 #2D85BF #1CAEB2*/
+
+.Editar {
+  background:  #36A0E5;
+  margin-bottom: 50px;
+  padding: 5%;
+}
+.Editar .CambiarEstado {
+  padding: 5%;
+}
+.Editar .CambiarEstado input{
+  width: 100%;
+  padding: 20PX;
+  border:none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.Editar .CambiarEstado textarea{
+  width: 100%;
+  padding: 20PX;
+  border:none;
+  border-radius: 10px;
+
+}
+.Editar .CambiarNombreCorreoPass {
+  padding: 5%;
+}
+.Editar .CambiarFoto {
+  padding: 5%;
+}
+.Editar .CambiarNombreCorreoPass ul {
+  display: flex;
+  justify-content: space-around;
+}
+.Editar .CambiarNombreCorreoPass ul li{
+  padding: 20px;
+  border-radius: 10px;
+  background: #2D85BF;
+  list-style: none;
+}
+/*#0F2C40 #3CB2FF #36A0E5 #2D85BF #1CAEB2*/
+
+.Editar .CambiarNombreCorreoPass ul li:hover{
+  background: #0F2C40;
+}
+.Editar .CambiarNombreCorreoPass ul li a{
+  text-decoration: none;
+  color:white;
+
+}
+.Editar .CambiarFoto {
+
+  display: flex;
+  justify-content: center;
+}
+.Editar .CambiarFoto input[type="file"]{
+
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+
+}
+.Editar .CambiarFoto input[type="submit"]{
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  transition: 0.2;
+}
+/*#0F2C40 #3CB2FF #36A0E5 #2D85BF #1CAEB2*/
+
+
+
+.Editar  input[type="submit"]:hover{
+  color: white;
+  background: #0F2C40;
+  font-weight: 600;
+  cursor:pointer;
+}
+
+
+
+
+
+
+
+
+/*#0F2C40 #3CB2FF #36A0E5 #2D85BF #1CAEB2*/
+
+.Edit {
+
+  display: flex;
+  justify-content: center;
+}
+.Edit a{
+  width: 100%;
+  padding: 20px;
+  background: #0F2C40;
+  color:white;
+  text-align: center;
+  font-size: 20px;
+  transition: 0.2s;
+  border-bottom: 10px #0F2C40 solid;
+}
+.Edit a:hover{
+  background: #2D85BF;
+  font-weight: 800;
+}
+.PostsHechos h2 {
+  color:black;
+}
+.NoHayNada {
+  text-align: center;
+  background: #3CB2FF;
+  margin: 10%;
+  padding: 5%;
+  width: 70%;
+}
+.NoHayNada h3 {
+  font-size: 50px;
+  font-weight: 800;
+}

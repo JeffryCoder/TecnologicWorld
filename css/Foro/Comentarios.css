@@ -1,0 +1,46 @@
+/*#0F2C40 #3CB2FF #36A0E5 #2D85BF #1CAEB2*/
+
+.Comentario {
+  background: #2D85BF;
+  border-top: 5px solid #0F2C40;
+  width: 86%;
+  padding: 2%;
+  margin: 5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+overflow:hidden;
+}
+.Comentario .UserQueComenta {
+  width: 20%;
+  display: inline-block;
+}
+.Comentario .UserQueComenta img{
+  width: 15%;
+  margin-right: 5%;
+  float: left;
+}
+.Comentario .UserQueComenta h4{
+  width: 50%;
+  float: left;
+  font-size: 25px;
+  color: black;
+}
+
+.Comentario .ComentarioDelUser {
+  width: 75%;
+  display: inline-block;
+}
+.Comentario .ComentarioDelUser .TextoComentario p{
+font-size: 18px;
+}
+.Comentario .ComentarioDelUser .TextoComentario{
+  word-break: break-all;
+  word-wrap: break-word;
+  width:75%;
+
+  float: left;
+}
+.Comentario .ComentarioDelUser .DataComentario{
+  float: right;
+}

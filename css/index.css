@@ -1,0 +1,35 @@
+
+/*#0F2C40 #3CB2FF #36A0E5 #2D85BF #1CAEB2*/
+
+.MenuTemporal ul li{
+	display: inline-block;
+	width: 10%;
+	padding: 20px;
+	background: #1CAEB2;
+}
+.MenuTemporal ul li:hover{
+	background: #86FBFF
+}
+.Información {
+	margin-top: 100px;
+	background: #2D85BF;
+	width: 90%;
+	padding: 5%;
+	border-top: #0F2C40 10px solid;
+	border-bottom: #0F2C40 10px solid;
+
+}
+.Información .LogoDescripción {
+	width: 30%;
+	float: left;
+}
+.Información .LogoDescripción img{
+	width: 60%;
+}
+.Información .Descripción {
+	width: 90%;
+	padding: 5%;
+}
+.Información .Descripción p{
+
+}

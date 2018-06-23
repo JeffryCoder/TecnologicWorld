@@ -1,0 +1,70 @@
+/*#0F2C40 #3CB2FF #36A0E5 #2D85BF #1CAEB2*/
+
+.Alerta {
+	background: #1CAEB2;
+	padding: 40px;
+	text-align: center;
+	font-size: 30px;
+}
+.RegistroLogin {
+	width: 90%;
+	padding: 5%;
+	margin-top: 2%;
+}
+.RegistrarseLogearse {
+	background: #fff;
+	border:#0F2C40 10px solid;
+	width: calc(45% - 20px);
+	padding: 5%;
+	float: left;
+	margin-right: 5%;
+	background: #2D85BF;
+
+}
+.RegistrarseLogearse input {
+		padding: 20px;
+		width: calc( 100%);
+		border-radius: 5px;
+		border: 1px solid #2f2f2f;
+		margin-top: 10px;
+		border:  none;
+}
+.RegistrarseLogearse input[type="submit"]{
+	background:#1CAEB2;
+	transition: 0.3s;
+	font-size: 18px;
+	color: white;
+	border: none;
+}
+.RegistrarseLogearse input[type="submit"]:hover{
+	background: #0F2C40;
+	cursor:pointer;
+	font-weight: 800;
+	border-radius: 20px;
+}
+.Info {
+	background: #fff;
+	border:#0F2C40 10px solid;
+	width: calc(30% - 20px);
+	padding: 5%;
+	float: left;
+	background: #2D85BF;
+	text-align: center;
+}
+
+/*#0F2C40 #3CB2FF #36A0E5 #2D85BF #1CAEB2*/
+
+.Info h3 {
+	text-align: center;
+	font-size: 30px;
+	color: black;
+	background: #1CAEB2;
+	padding: 15px;
+	transition: 0.2s;
+	margin-bottom: 20px;
+}
+.Info h3:hover {
+	background: #0F2C40;
+	border-radius: 10px;
+	color: white;
+}

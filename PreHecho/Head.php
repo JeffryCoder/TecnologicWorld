@@ -105,7 +105,12 @@ if(strpos($url, '/Perfil.php') !== false){$title = "Perfil";}
 
       <link rel="stylesheet" href="http://localhost/PreHecho/css/header.css">
 		  <link rel="stylesheet" href="http://localhost/PreHecho/css/footer.css">
-			<link rel="stylesheet" href="http://localhost/PreHecho/css/responsive.css">
+
+      <link rel="stylesheet" href="http://localhost/css/Responsive/BuscadorResponsive.css">
+      <link rel="stylesheet" href="http://localhost/css/Responsive/PerfilResponsive.css">
+      <link rel="stylesheet" href="http://localhost/css/Responsive/ForoResponsive.css">
+      <link rel="stylesheet" href="http://localhost/css/Responsive/ContactoResponsive.css">
+      <link rel="stylesheet" href="http://localhost/css/Responsive/RegistroLoginResponsive.css">
 
 ';}
 

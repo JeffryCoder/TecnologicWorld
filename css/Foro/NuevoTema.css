@@ -1,0 +1,56 @@
+/*#0F2C40 #3CB2FF #36A0E5 #2D85BF #1CAEB2*/
+
+.NuevoTemaForo {
+  background: #2D85BF;
+  width: 50%;
+  margin-left: 20%;
+  float: left;
+  border: #0F2C40 solid 15px;
+  border-top: none;
+  padding: 5%;
+}
+.NuevoTemaForo {
+  display: flex;
+  justify-content: center;
+}
+.NuevoTemaForo input {
+  margin-top: 10px;
+  padding: 20px;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  width: calc(100%);
+}
+.NuevoTemaForo textarea {
+  margin-top: 10px;
+  border: #0F2C40 solid 20px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  padding: 20px;
+  text-align: center;
+}
+.NuevoTemaForo select {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+/*#0F2C40 #3CB2FF #36A0E5 #2D85BF #1CAEB2*/
+
+.NuevoTemaForo input[type="submit"] {
+  background: #1CAEB2;
+  color: black;
+  transition: 0.2s;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+
+.NuevoTemaForo input[type="submit"]:hover {
+  background: #0F2C40;
+  color: white;
+  cursor: pointer;
+}

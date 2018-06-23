@@ -101,7 +101,7 @@ header .RegistroLoginHeader a.SinIniciarSesión{
   color:#000;
   text-decoration: none;
   text-align: center;
-  font-size: 20px;
+  font-size: 1em;
   margin-top: 13px;
   transition: 0.3s;
 }
@@ -157,4 +157,95 @@ header .RegistroLoginHeader .SesiónIniciada img{
 }
 .MenuDesplegable {
   display: none;
+}
+
+
+
+@media only screen and (max-width: 1150px) {
+  header .Buscador {
+    width: 15%;
+  }
+  header .RegistroLoginHeader a.SinIniciarSesión{
+    padding: 16px;
+    font-size: 15px;
+    width: 200%;
+  }
+  header .Menú ul li{
+    background: #2D85BF;
+    padding: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2.5px;
+    font-size: 17px;
+  }
+  header .Logo {
+  width: 30%;
+  }
+  header .Logo img{
+    margin-top: 5px;
+  }
+}
+@media only screen and (max-width: 800px) {
+.MenuDesplegableUsuario {
+  width: 100%;
+  margin-left: -80%;
+  border: none;
+  padding: 0px;
+  padding-bottom:30px;
+  border-bottom: 10px solid #0F2C40;
+}
+}
+@media only screen and (max-width: 770px) {
+  header .Logo {
+   display: none;
+ }
+  header .Menú{
+    width:50%;
+  }
+  header .Menú ul li{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  header .Buscador {
+    width: 20%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  header .Menú ul li{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  header .Menú{
+    width:40%;
+  }
+  header .Buscador {
+    width: 20%;
+    margin-left: -5%;
+  }
+}
+@media only screen and (max-width: 350px) {
+  header {
+    display: inline-block;
+    justify-content: none;
+    height: 175px;
+  }
+  header .Menú{
+    width: 100%;
+  }
+  header .Menú ul li{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+  header .Buscador {
+    float: left;
+    width: 40%;
+    margin-left: 2%;
+  }
+    header .RegistroLoginHeader {
+      margin-left: 50%;
+      width: 40%;
+    }
+    .MenuDesplegableUsuario {
+      margin-left: -40%;
+  }
 }

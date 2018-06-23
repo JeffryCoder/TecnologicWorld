@@ -43,7 +43,7 @@
   <?php if(empty($_SESSION['Nickname'])){
     echo '
     <a class="SinIniciarSesión" href="http://localhost/Login.php">
-      <b>Registrarse/Entrar
+      <b>Entra
         <span class="glyphicon glyphicon-user" >
         </span>
       </b>
